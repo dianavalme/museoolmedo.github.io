@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+	background-color: #1a1e23;
+}
+
+
+.navbar-nav .nav-link{
+	margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover{
+	background-color:  #1cbc9c;
+	color: #FFFFFF;
+	border-radius: 10px;
+}
+
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#filter1{
+	filter: brightness(0.5);
+}
+
+#filter2{
+	filter: brightness(0.5);
+}
+
+#filter3{
+	filter: brightness(0.5);
+}
+
+
+.jumbotron{
+	background-image: url("../medios/images/museo.jpg");
+	background-size: cover;
+	background-position: center;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 200px;
+}
+.color-texto{
+    color: #FFFFFF;
+}
+
+.btn-verde{
+	
+	background-color: #1cbc9c;
+	color: #FFFFFF;
+	padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-verde:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+    font-weight:bolder
+}
+
+hr{
+	background-color: #FFFFFF;
+}
+
+a:hover{
+	 font-weight: bolder;
+	
+}
+
+.margin-sections{
+	margin-top: 60px;
+}
+
+
+.margin-cards{
+	margin-top: 15px;
+}
+
+.card-img-margin {
+	margin-top: 15px;
+}
+
+.fila{
+	margin-bottom: 10px;
+}
